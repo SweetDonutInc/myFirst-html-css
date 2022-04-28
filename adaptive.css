@@ -1,0 +1,185 @@
+@media screen and (max-width: 1540px){
+
+    .main-menu{
+        height: 693px;
+    }
+
+    .header-logo{
+        margin-left: 80px;
+    }
+
+    .header-logo .top-text{
+        font-size: 52px;
+    }
+
+    .bottom-text{
+        font-size: 37px;
+        margin-top: -12px;
+    }
+
+    .topnav a{
+        padding: 10px 36px;
+        font-size: 32px;
+    }
+
+    .topnav a:hover{
+        border-bottom: 4px solid #81c4e7;
+    }
+
+    .menu-text{
+        margin-left: 80px;
+    }
+
+    .desc-top{
+        font-size: 32px;
+    }
+
+    .desc-bottom{
+        font-size: 24px;
+    }
+
+
+    .ticket-description{
+        height: 484px;
+        margin-top: 4px;
+    }
+
+    .desc-left img{
+        height: 80%;
+    }
+
+    .ticket-price{
+        height: 2304px;
+        background-size: cover;
+    }
+
+
+    .wb-bg, .wb-bg2{
+        height: 120px;
+    }
+
+    .wristbands{
+        font-size: 68px;
+    }
+
+    .wr-desc{
+        font-size: 25px;
+        margin-top: -45px;
+    }
+
+    .wrst{
+        font-size: 40px;
+        height: 316px;
+    }
+
+    .single-ride{
+        font-size: 40px;
+        margin-top: 40px;
+        height: 1600px;
+    }
+
+    .pricepm{
+        margin-top: 24px;
+    }
+
+    .price{
+        height: 64px;
+        font-size: 56px;
+    }
+
+    .cnt{
+        font-size: 56px;
+        margin-left: 16px;
+    }
+
+    .pm{
+        border: #81c4e7 solid 4px;
+        margin-left: 32px;
+        width: 128px;
+        height: 64px;
+        font-size: 40px;
+        border-radius: 16px;
+    }
+
+    .pm2{
+        margin-left: 16px;
+    }
+
+    .rides{
+        margin-top: 4px;
+        height: 2304px;
+    }
+
+    .top-rides{
+        padding-top: 40px;
+        font-size: 36px;
+    }
+
+    .bottom-rides{
+        font-size: 24px;
+    }
+
+    .rides-table img{
+        padding-top: 40px;
+    }
+
+    .name-text{
+        font-size: 32px;
+    }
+
+    .desc-text{
+        margin: 8px 10% 0px 10%;
+        font-size: 17px;
+    }
+
+    .restaurants{
+        margin-top: 4px;
+        height: 1684px;
+    }
+
+    .rest-text{
+        padding-top: 64px;
+    }
+
+    .top-rest{
+        font-size: 36px;
+    }
+
+    .bottom-rest{
+        font-size: 24px;
+    }
+
+    .shopping{
+        margin-top: 4px;
+        height: 1600px;
+    }
+
+    .bottom-shop{
+        font-size: 24px;
+    }
+
+    .shop-name{
+        font-size: 36px;
+    }
+
+    .shop-desc{
+        font-size: 22px;
+    }
+
+
+    .foot{
+        height: 144px;
+    }
+
+    .foot-name{
+        margin-top: 24px;
+        font-size: 32px;
+        margin-left: 80px;
+    }
+
+    .foot-desc{
+        margin-top: 8px;
+        font-size: 16px;
+        margin-left: 80px;
+    }
+}

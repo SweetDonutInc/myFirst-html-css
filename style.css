@@ -1,0 +1,375 @@
+@import url('https://allfont.ru/allfont.css?fonts=beaumarchaisc'); /*Заголовки описания*/
+@import url('http://fonts.cdnfonts.com/css/gost-type-a'); /* Навигация в header*/
+@import url('https://db.onlinewebfonts.com/c/189959ec36f955aaafefb3d50231a17a?family=GOST+type+B'); /* Информационный текст */
+@import url('http://fonts.cdnfonts.com/css/berlin-sans-fb'); /* Названия */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    position: relative;
+}
+
+body{
+    background-color: #2f2834;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-menu{
+    background: url(images/HeaderBg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 867px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+}
+
+.header-logo{
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 3%;
+    color: #dfdfdf;
+    font-family: 'beaumarchaisc', sans-serif;
+}
+
+.header-logo .top-text{
+    font-size: 65px;
+}
+
+.bottom-text{
+    font-size: 47px;
+    margin-top: -15px;
+}
+
+nav{
+    width: 55%;
+    margin-top: 5%;
+    margin-right: 2%;
+    text-align: right;
+}
+
+.topnav a{
+    color: #9f9e9e;
+    text-align: center;
+    padding: 13px 45px;
+    font-size: 40px;
+    font-family: 'Gost Type A';
+}
+
+.topnav a:hover{
+    color: #dfdfdf;
+    border-bottom: 5px solid #81c4e7;
+}
+
+.menu-text{
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 100px;
+}
+
+.desc-top{
+    font-family: 'beaumarchaisc', sans-serif;
+    font-size: 40px;
+    color: #81c4e7;
+}
+
+.desc-bottom{
+
+    font-family: 'Gost Type B', sans-serif;
+    font-size: 30px;    
+    color: #dfdfdf;
+}
+
+
+.ticket-description{
+    display: flex;
+    background: url(images/PriceHeader.png) no-repeat;
+    height: 606px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 6px;
+}
+
+.desc-left{
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.desc-right div{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 8%;
+}
+
+.ticket-price{
+    background: url(images/PriceBg.png) no-repeat;
+    height: 2880px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.wb-bg{
+    height: 150px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.wb-bg2{
+    height: 150px;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.wristbands{
+    font-size: 85px;
+    font-family: 'Berlin Sans FB', sans-serif;
+    color: #81c4e7;
+    text-align: center;
+}
+
+.wr-desc{
+    font-family: 'Gost Type B', sans-serif;
+    font-size: 30px;
+    color: #dfdfdf;
+    margin-top: -55px;
+    text-align: center;
+}
+
+.wrst{
+    font-size: 50px;
+    font-family: 'Berlin Sans FB', sans-serif;
+    color: #dfdfdf;
+    width: 100%;
+    height: 395px;
+}
+
+.wrst td{
+    width: 50%;
+}
+
+.single-ride{
+    font-size: 50px;
+    font-family: 'Berlin Sans FB', sans-serif;
+    color: #dfdfdf;
+    margin-top: 50px;
+    height: 2000px;
+    width: 100%;
+}
+
+.single-ride td{
+    width: 50%;
+}
+
+.pricepm{
+    margin-top: 30px;
+    display: flex;
+}
+
+.price{
+    height: 80px;
+    font-size: 70px;
+    color: #81c4e7;
+}
+
+.cnt{
+    font-family: 'Berlin Sans FB', sans-serif;
+    color: #81c4e7;
+    font-size: 70px;
+    margin-left: 20px;
+}
+
+.pm{
+    border: #81c4e7 solid 6px;
+    margin-left: 40px;
+    width: 160px;
+    height: 80px;
+    font-family: 'Berlin Sans FB', sans-serif;
+    color: #81c4e7;
+    font-size: 50px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.pm:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.pm2{
+    margin-left: 20px;
+}
+
+.acont{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.rides{
+    background: url(images/RidesBg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 6px;
+    height: 2880px;
+}
+
+.rides-text{
+    margin-left: 4%;
+    color: #dfdfdf;
+}
+
+.top-rides{
+    padding-top: 50px;
+    font-size: 45px;
+    font-family: 'beaumarchaisc', sans-serif;
+    color: #81c4e7;
+}
+
+.bottom-rides{
+    font-size: 30px;
+    font-family: 'GOST Type B', sans-serif;
+}
+
+.rides-table{
+    width: 100%;
+    margin-top: 2%;
+}
+
+.rides-table td{
+    width: 33%;
+    vertical-align: top;
+}
+
+.rides-table img{
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 50px;
+}
+
+.name-text{
+    margin: 15px 10% 0px 10%;
+    font-size: 40px;
+    font-family: 'Berlin Sans FB', sans-serif;
+    color: #81c4e7;
+}
+
+.desc-text{
+    margin: 10px 10% 0px 10%;
+    font-size: 22px;
+    font-family: 'GOST Type B', sans-serif;
+    color: #dfdfdf;
+}
+
+.restaurants{
+    background: url(images/RestaurantsBg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 6px;
+    height: 2105px;
+}
+
+.rest-text{
+    padding-top: 80px;
+    margin-left: 4%;
+    color: #dfdfdf;
+}
+
+.top-rest{
+    font-size: 45px;
+    font-family: 'beaumarchaisc', sans-serif;
+    color: #81c4e7;
+}
+
+.bottom-rest{
+    width: 65%;
+    font-size: 30px;
+    font-family: 'GOST Type B', sans-serif;
+}
+
+.shopping{
+    background: url(images/ShoppingBg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 6px;
+    height: 2000px;
+}
+
+.bottom-shop{
+    width: 65%;
+    font-size: 30px;
+    font-family: 'GOST Type B', sans-serif;
+}
+
+.flex-shop{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 8%;
+    width: 90%;
+}
+
+.first-shop img{
+    margin-top: 2%;
+    width: 40%;
+}
+
+.second-shop img{
+    margin-top: 2%;
+    width: 40%;
+}
+
+.shop-name{
+    font-size: 45px;
+    font-family: 'Berlin Sans FB', sans-serif;
+    color: #81c4e7;
+    margin-top: 20%;
+}
+
+.shop-desc{
+    font-size: 24px;
+    font-family: 'GOST Type B', sans-serif;
+    color: #dfdfdf;
+}
+
+.sn1{
+    margin-left: 5%;
+}
+
+.sn2{
+    margin-right: 5%;
+}
+
+.foot{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 180px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.foot div{
+    width: 25%;
+}
+
+.foot-name{
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Berlin Sans FB', sans-serif;
+    color: #81c4e7;
+    margin-left: 100px;
+}
+
+.foot-desc{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'GOST Type B', sans-serif;
+    color: #dfdfdf;
+    margin-left: 100px;
+}
