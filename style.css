@@ -1,7 +1,8 @@
-@import url('https://allfont.ru/allfont.css?fonts=beaumarchaisc'); /*Заголовки описания*/
-@import url('http://fonts.cdnfonts.com/css/gost-type-a'); /* Навигация в header*/
-@import url('https://db.onlinewebfonts.com/c/189959ec36f955aaafefb3d50231a17a?family=GOST+type+B'); /* Информационный текст */
-@import url('http://fonts.cdnfonts.com/css/berlin-sans-fb'); /* Названия */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Comfortaa&family=Graduate&display=swap');
+
+/* font-family: 'Balsamiq Sans', cursive;  //основной текст
+font-family: 'Comfortaa', cursive;  //навигация
+font-family: 'Graduate', cursive; //для PacificPark */
 
 *{
     margin: 0;
@@ -14,6 +15,8 @@ html{
 
 body{
     background-color: #2f2834;
+    color: #dfdfdf;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 a {
@@ -35,23 +38,22 @@ header{
 .header-logo{
     width: 40%;
     margin-left: 100px;
-    margin-top: 3%;
-    color: #dfdfdf;
-    font-family: 'beaumarchaisc', sans-serif;
+    margin-top: 1%;
+    font-family: 'Graduate', cursive;
 }
 
 .header-logo .top-text{
-    font-size: 65px;
+    font-size: 60px;
 }
 
 .bottom-text{
-    font-size: 47px;
-    margin-top: -15px;
+    font-size: 40px;
+    margin-top: -10px;
 }
 
 nav{
     width: 55%;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-right: 2%;
     text-align: right;
 }
@@ -59,9 +61,9 @@ nav{
 .topnav a{
     color: #9f9e9e;
     text-align: center;
-    padding: 13px 45px;
-    font-size: 40px;
-    font-family: 'Gost Type A';
+    padding: 15px 45px;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
 }
 
 .topnav a:hover{
@@ -70,22 +72,18 @@ nav{
 }
 
 .menu-text{
-    width: 60%;
-    margin-top: 10%;
+    width: 55%;
+    margin-top: 8%;
     margin-left: 100px;
 }
 
 .desc-top{
-    font-family: 'beaumarchaisc', sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     color: #81c4e7;
 }
 
 .desc-bottom{
-
-    font-family: 'Gost Type B', sans-serif;
-    font-size: 30px;    
-    color: #dfdfdf;
+    font-size: 30px;
 }
 
 
@@ -130,23 +128,18 @@ nav{
 
 .wristbands{
     font-size: 85px;
-    font-family: 'Berlin Sans FB', sans-serif;
     color: #81c4e7;
     text-align: center;
 }
 
 .wr-desc{
-    font-family: 'Gost Type B', sans-serif;
-    font-size: 30px;
-    color: #dfdfdf;
-    margin-top: -55px;
+    font-size: 35px;
+    margin-top: -60px;
     text-align: center;
 }
 
 .wrst{
     font-size: 50px;
-    font-family: 'Berlin Sans FB', sans-serif;
-    color: #dfdfdf;
     width: 100%;
     height: 395px;
 }
@@ -157,7 +150,6 @@ nav{
 
 .single-ride{
     font-size: 50px;
-    font-family: 'Berlin Sans FB', sans-serif;
     color: #dfdfdf;
     margin-top: 50px;
     height: 2000px;
@@ -180,7 +172,6 @@ nav{
 }
 
 .cnt{
-    font-family: 'Berlin Sans FB', sans-serif;
     color: #81c4e7;
     font-size: 70px;
     margin-left: 20px;
@@ -191,7 +182,6 @@ nav{
     margin-left: 40px;
     width: 160px;
     height: 80px;
-    font-family: 'Berlin Sans FB', sans-serif;
     color: #81c4e7;
     font-size: 50px;
     border-radius: 20px;
@@ -222,24 +212,12 @@ nav{
 
 .rides-text{
     margin-left: 4%;
-    color: #dfdfdf;
-}
-
-.top-rides{
-    padding-top: 50px;
-    font-size: 45px;
-    font-family: 'beaumarchaisc', sans-serif;
-    color: #81c4e7;
-}
-
-.bottom-rides{
-    font-size: 30px;
-    font-family: 'GOST Type B', sans-serif;
+    padding-top: 30px;
 }
 
 .rides-table{
     width: 100%;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .rides-table td{
@@ -254,17 +232,14 @@ nav{
 }
 
 .name-text{
-    margin: 15px 10% 0px 10%;
-    font-size: 40px;
-    font-family: 'Berlin Sans FB', sans-serif;
+    margin: 10px 10% 0px 10%;
+    font-size: 35px;
     color: #81c4e7;
 }
 
 .desc-text{
     margin: 10px 10% 0px 10%;
     font-size: 22px;
-    font-family: 'GOST Type B', sans-serif;
-    color: #dfdfdf;
 }
 
 .restaurants{
@@ -276,21 +251,10 @@ nav{
 }
 
 .rest-text{
-    padding-top: 80px;
+    padding-top: 30px;
     margin-left: 4%;
     color: #dfdfdf;
-}
-
-.top-rest{
-    font-size: 45px;
-    font-family: 'beaumarchaisc', sans-serif;
-    color: #81c4e7;
-}
-
-.bottom-rest{
     width: 65%;
-    font-size: 30px;
-    font-family: 'GOST Type B', sans-serif;
 }
 
 .shopping{
@@ -304,37 +268,33 @@ nav{
 .bottom-shop{
     width: 65%;
     font-size: 30px;
-    font-family: 'GOST Type B', sans-serif;
 }
 
 .flex-shop{
     display: flex;
-    margin-left: 5%;
-    margin-top: 8%;
+    margin-left: 4%;
+    margin-top: 4%;
     width: 90%;
 }
 
 .first-shop img{
-    margin-top: 2%;
-    width: 40%;
+    margin-top: 1%;
+    width: 50%;
 }
 
 .second-shop img{
-    margin-top: 2%;
-    width: 40%;
+    margin-top: 1%;
+    width: 50%;
 }
 
 .shop-name{
     font-size: 45px;
-    font-family: 'Berlin Sans FB', sans-serif;
     color: #81c4e7;
     margin-top: 20%;
 }
 
 .shop-desc{
-    font-size: 24px;
-    font-family: 'GOST Type B', sans-serif;
-    color: #dfdfdf;
+    font-size: 30px;
 }
 
 .sn1{
@@ -361,7 +321,6 @@ nav{
 .foot-name{
     margin-top: 30px;
     font-size: 40px;
-    font-family: 'Berlin Sans FB', sans-serif;
     color: #81c4e7;
     margin-left: 100px;
 }
@@ -369,7 +328,5 @@ nav{
 .foot-desc{
     margin-top: 10px;
     font-size: 20px;
-    font-family: 'GOST Type B', sans-serif;
-    color: #dfdfdf;
     margin-left: 100px;
 }
